@@ -1,0 +1,55 @@
+{
+  "name": "homequest-real-estate",
+  "version": "1.0.0",
+  "description": "A modern, responsive real estate website built with Svelte, Vite, and Tailwind CSS",
+  "keywords": [
+    "svelte",
+    "vite",
+    "tailwindcss",
+    "real-estate",
+    "responsive",
+    "accessibility"
+  ],
+  "author": "HomeQuest Team",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "npm run build:style && vite",
+    "build": "npm run build:style && vite build",
+    "preview": "npm run build:style && vite preview",
+    "build:style": "npx tailwindcss -i src/styles.css -o src/tailwind.css --config tailwind.config.js",
+    "watch:style": "npx tailwindcss -i src/styles.css -o src/tailwind.css --config tailwind.config.js --watch",
+    "lint": "echo 'Add linting script here'",
+    "format": "echo 'Add formatting script here'",
+    "clean": "rimraf dist .svelte-kit",
+    "type-check": "echo 'Add type checking script here'"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "svelte": "^4.2.3",
+    "svelte-preprocess": "^5.1.3",
+    "sass": "^1.72.0",
+    "vite": "^4.0.3",
+    "tailwindcss": "^3.2.4",
+    "autoprefixer": "10.4.13",
+    "postcss": "^8.4.20"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/homequest-real-estate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/homequest-real-estate/issues"
+  },
+  "homepage": "https://github.com/yourusername/homequest-real-estate#readme"
+}

@@ -1,0 +1,477 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Responsive Design Utilities */
+
+/* Container utilities */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+/* Responsive text utilities */
+.text-responsive-xs {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-responsive-sm {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-responsive-base {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-responsive-lg {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-responsive-xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-responsive-2xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-responsive-3xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-responsive-4xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+@media (min-width: 640px) {
+  .text-responsive-xs {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  .text-responsive-sm {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  
+  .text-responsive-base {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  .text-responsive-lg {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  .text-responsive-xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  
+  .text-responsive-2xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  
+  .text-responsive-3xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  
+  .text-responsive-4xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-responsive-xs {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  
+  .text-responsive-sm {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  .text-responsive-base {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  .text-responsive-lg {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  
+  .text-responsive-xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  
+  .text-responsive-2xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  
+  .text-responsive-3xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+  
+  .text-responsive-4xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+
+/* Responsive spacing utilities */
+.space-responsive-xs { gap: 0.5rem; }
+.space-responsive-sm { gap: 1rem; }
+.space-responsive-base { gap: 1.5rem; }
+.space-responsive-lg { gap: 2rem; }
+.space-responsive-xl { gap: 3rem; }
+.space-responsive-2xl { gap: 4rem; }
+
+@media (min-width: 640px) {
+  .space-responsive-xs { gap: 0.75rem; }
+  .space-responsive-sm { gap: 1.25rem; }
+  .space-responsive-base { gap: 2rem; }
+  .space-responsive-lg { gap: 3rem; }
+  .space-responsive-xl { gap: 4rem; }
+  .space-responsive-2xl { gap: 6rem; }
+}
+
+@media (min-width: 1024px) {
+  .space-responsive-xs { gap: 1rem; }
+  .space-responsive-sm { gap: 1.5rem; }
+  .space-responsive-base { gap: 2.5rem; }
+  .space-responsive-lg { gap: 4rem; }
+  .space-responsive-xl { gap: 6rem; }
+  .space-responsive-2xl { gap: 8rem; }
+}
+
+/* Responsive padding utilities */
+.p-responsive-xs { padding: 0.75rem; }
+.p-responsive-sm { padding: 1rem; }
+.p-responsive-base { padding: 1.5rem; }
+.p-responsive-lg { padding: 2rem; }
+.p-responsive-xl { padding: 3rem; }
+.p-responsive-2xl { padding: 4rem; }
+
+@media (min-width: 640px) {
+  .p-responsive-xs { padding: 1rem; }
+  .p-responsive-sm { padding: 1.5rem; }
+  .p-responsive-base { padding: 2rem; }
+  .p-responsive-lg { padding: 3rem; }
+  .p-responsive-xl { padding: 4rem; }
+  .p-responsive-2xl { padding: 6rem; }
+}
+
+@media (min-width: 1024px) {
+  .p-responsive-xs { padding: 1.5rem; }
+  .p-responsive-sm { padding: 2rem; }
+  .p-responsive-base { padding: 3rem; }
+  .p-responsive-lg { padding: 4rem; }
+  .p-responsive-xl { padding: 6rem; }
+  .p-responsive-2xl { padding: 8rem; }
+}
+
+/* Responsive margin utilities */
+.m-responsive-xs { margin: 0.75rem; }
+.m-responsive-sm { margin: 1rem; }
+.m-responsive-base { margin: 1.5rem; }
+.m-responsive-lg { margin: 2rem; }
+.m-responsive-xl { margin: 3rem; }
+.m-responsive-2xl { margin: 4rem; }
+
+@media (min-width: 640px) {
+  .m-responsive-xs { margin: 1rem; }
+  .m-responsive-sm { margin: 1.5rem; }
+  .m-responsive-base { margin: 2rem; }
+  .m-responsive-lg { margin: 3rem; }
+  .m-responsive-xl { margin: 4rem; }
+  .m-responsive-2xl { margin: 6rem; }
+}
+
+@media (min-width: 1024px) {
+  .m-responsive-xs { margin: 1.5rem; }
+  .m-responsive-sm { margin: 2rem; }
+  .m-responsive-base { margin: 3rem; }
+  .m-responsive-lg { margin: 4rem; }
+  .m-responsive-xl { margin: 6rem; }
+  .m-responsive-2xl { margin: 8rem; }
+}
+
+/* Responsive grid utilities */
+.grid-responsive-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.grid-responsive-2 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.grid-responsive-3 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.grid-responsive-4 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+
+@media (min-width: 640px) {
+  .grid-responsive-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-responsive-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-responsive-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (min-width: 768px) {
+  .grid-responsive-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .grid-responsive-4 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (min-width: 1024px) {
+  .grid-responsive-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+/* Responsive flex utilities */
+.flex-responsive-col { flex-direction: column; }
+.flex-responsive-row { flex-direction: column; }
+
+@media (min-width: 640px) {
+  .flex-responsive-row { flex-direction: row; }
+}
+
+/* Responsive visibility utilities */
+.hidden-mobile { display: none; }
+.visible-mobile { display: block; }
+
+@media (min-width: 640px) {
+  .hidden-mobile { display: block; }
+  .visible-mobile { display: none; }
+}
+
+/* Responsive image utilities */
+.img-responsive {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-responsive-square {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.img-responsive-16-9 {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.img-responsive-4-3 {
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+/* Responsive button utilities */
+.btn-responsive {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .btn-responsive {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btn-responsive {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+/* Responsive card utilities */
+.card-responsive {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .card-responsive {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-responsive {
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+}
+
+/* Responsive section utilities */
+.section-responsive {
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .section-responsive {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-responsive {
+    padding: 4rem 2rem;
+  }
+}
+
+/* Responsive hero utilities */
+.hero-responsive {
+  min-height: 300px;
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .hero-responsive {
+    min-height: 400px;
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-responsive {
+    min-height: 500px;
+    padding: 4rem 2rem;
+  }
+}
+
+/* Responsive navigation utilities */
+.nav-responsive {
+  padding: 0.75rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .nav-responsive {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-responsive {
+    padding: 1.25rem 2rem;
+  }
+}
+
+/* Responsive footer utilities */
+.footer-responsive {
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .footer-responsive {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-responsive {
+    padding: 4rem 2rem;
+  }
+}
+
+/* Utility classes for common responsive patterns */
+.responsive-container {
+  @apply container mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.responsive-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8;
+}
+
+.responsive-flex {
+  @apply flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 sm:gap-6;
+}
+
+.responsive-text {
+  @apply text-sm sm:text-base lg:text-lg xl:text-xl;
+}
+
+.responsive-heading {
+  @apply text-xl sm:text-2xl lg:text-3xl xl:text-4xl;
+}
+
+.responsive-spacing {
+  @apply space-y-4 sm:space-y-6 lg:space-y-8;
+}
+
+.responsive-padding {
+  @apply p-4 sm:p-6 lg:p-8;
+}
+
+.responsive-margin {
+  @apply m-4 sm:m-6 lg:m-8;
+}
+
+/* Animation for FAQ content */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+      
