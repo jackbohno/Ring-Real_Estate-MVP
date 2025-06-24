@@ -1,3 +1,5 @@
+# IGNORE THIS DEVO
+
 # HomeQuest - Real Estate Website
 
 A modern, responsive real estate website built with Svelte, Vite, and Tailwind CSS.
