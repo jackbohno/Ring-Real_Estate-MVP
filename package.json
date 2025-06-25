@@ -15,9 +15,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "npm run build:style && vite",
-    "build": "npm run build:style && vite build",
-    "preview": "npm run build:style && vite preview",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "build:style": "npx tailwindcss -i src/styles.css -o src/tailwind.css --config tailwind.config.js",
     "watch:style": "npx tailwindcss -i src/styles.css -o src/tailwind.css --config tailwind.config.js --watch",
     "lint": "echo 'Add linting script here'",
