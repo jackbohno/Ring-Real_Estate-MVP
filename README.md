@@ -1,4 +1,4 @@
-# IGNORE THIS DEVO
+# Tech Stack Rundown
 
 # HomeQuest - Real Estate Website
 
