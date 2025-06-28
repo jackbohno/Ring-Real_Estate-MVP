@@ -46,10 +46,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/homequest-real-estate.git"
+    "url": "https://github.com/jackbohno/Ring-Real_Estate-MVP.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/homequest-real-estate/issues"
+    "url": "https://github.com/jackbohno/Ring-Real_Estate-MVP/issues"
   },
-  "homepage": "https://github.com/yourusername/homequest-real-estate#readme"
+  "homepage": "https://github.com/jackbohno/Ring-Real_Estate-MVP#readme"
 }
