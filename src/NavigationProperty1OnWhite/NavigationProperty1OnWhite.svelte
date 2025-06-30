@@ -19,9 +19,12 @@
   <div class="hidden lg:flex h-[61px] relative items-center justify-between px-4 sm:px-6 lg:px-8">
     <!-- Left side - Logo -->
     <LogoProperty1Variant2 class="shrink-0"></LogoProperty1Variant2>
-    
-    <!-- Center - Contact Link -->
-    <div class="flex items-center">
+
+    <!-- Center - Page Links -->
+    <nav class="flex items-center gap-6">
+      <a href="#home" class="text-neutral-white font-['Geist-Regular',_sans-serif] text-base leading-[180%] hover:opacity-80 transition-opacity" style="letter-spacing: -0.2px;">Home</a>
+      <a href="#faqs" class="text-neutral-white font-['Geist-Regular',_sans-serif] text-base leading-[180%] hover:opacity-80 transition-opacity" style="letter-spacing: -0.2px;">FAQs</a>
+      <a href="#about" class="text-neutral-white font-['Geist-Regular',_sans-serif] text-base leading-[180%] hover:opacity-80 transition-opacity" style="letter-spacing: -0.2px;">About</a>
       <button
         type="button"
         class="text-neutral-white text-left font-['Geist-Regular',_sans-serif] text-base leading-[180%] font-normal relative hover:opacity-80 transition-opacity cursor-pointer"
@@ -31,8 +34,8 @@
       >
         Contact
       </button>
-    </div>
-    
+    </nav>
+
     <!-- Right side - Phone & Button -->
     <div class="flex items-center gap-6">
       <div class="text-neutral-white text-left font-['Geist-Regular',_sans-serif] text-base leading-[180%] font-normal relative hidden xl:block" style="letter-spacing: -0.2px;">
@@ -49,9 +52,12 @@
   <div class="lg:hidden flex h-[61px] relative items-center justify-between px-4 sm:px-6">
     <!-- Left side - Logo -->
     <LogoProperty1Variant2 class="shrink-0"></LogoProperty1Variant2>
-    
-    <!-- Right side - Contact Link & Button -->
+
+    <!-- Right side - Links & Button -->
     <div class="flex items-center gap-4">
+      <a href="#home" class="text-neutral-white font-['Geist-Regular',_sans-serif] text-sm leading-[180%] hover:opacity-80 transition-opacity" style="letter-spacing: -0.2px;">Home</a>
+      <a href="#faqs" class="text-neutral-white font-['Geist-Regular',_sans-serif] text-sm leading-[180%] hover:opacity-80 transition-opacity" style="letter-spacing: -0.2px;">FAQs</a>
+      <a href="#about" class="text-neutral-white font-['Geist-Regular',_sans-serif] text-sm leading-[180%] hover:opacity-80 transition-opacity" style="letter-spacing: -0.2px;">About</a>
       <button
         type="button"
         class="text-neutral-white text-left font-['Geist-Regular',_sans-serif] text-sm sm:text-base leading-[180%] font-normal relative hover:opacity-80 transition-opacity cursor-pointer"
